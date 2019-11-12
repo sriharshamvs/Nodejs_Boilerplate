@@ -13,14 +13,14 @@ You need to install the following before starting the project
 * [node](https://nodejs.org/en/) - If you don't have node installed, you can donwload from [here](https://nodejs.org/en/)
 * [mongodb](https://www.mongodb.com/) - MongoDB ( you can install mongod [here](https://docs.mongodb.com/manual/installation/) )
 
-### **Installation**
+### Installation
 * Clone the directory withe the command
 ```
 git clone git@code.swecha.org:sriharshamvs/nodejs-boilerplate.git
 ```
 * Change Directory to node boilerplate
 ```
-cd node_boilerplate
+cd nodejs-boilerplate
 ```
 
 * Install node modules needed
@@ -29,17 +29,19 @@ npm install
 ```
 **Note** : Wait for few minutes to install the node modules, it may few hours if your internet connection is slow 
 
-## **Running app**
+## Running App
 * To run the app 
 ```
 node server.js
 ```
 It will output the message 
 ```
-App running at http://localhost:3000/
+Server Started on http://localhost:3000
+Connected to database successfully mongodb://localhost:27017/userData
 ```
-### **Test the app**
-Open browser and enter url : http://localhost:3000/ and then you should see :
+### Test the App
+Open browser 
+* Enter URL : *http://localhost:3000/* then you should see :
 ```
 {
     "messsage": "Server running at http://localhost:3000",
@@ -47,4 +49,14 @@ Open browser and enter url : http://localhost:3000/ and then you should see :
     "success": true
 }
 ```
-**Voila lets start building the app** :stuck_out_tongue_winking_eye:
+* Enter URL : *http://localhost:3000/users* then you should see :
+```
+"You are in User's Root directory"
+```
+* Enter URL : *http://localhost:3000/users/test* then you should see :
+```
+"You are in User's Testing Route"
+```
+### Performing CRUD operations
+CRUD stands for (*Create, Read, Update, Delete*)
+

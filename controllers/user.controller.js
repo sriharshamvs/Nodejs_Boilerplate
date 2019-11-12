@@ -1,7 +1,11 @@
 const User = require('../models/user.model');
 
 exports.test = (req, res) => {
-    res.json("Greetings from the Controller");
+    res.json("You are in User's Testing Route");
+};
+
+exports.root = (req, res) => {
+    res.json("You are in User's Root directory")
 };
 
 exports.userCreate = (req, res) => {

@@ -5,6 +5,7 @@ const userController = require('../controllers/user.controller');
 
 // Testing route
 router.get('/test', userController.test);
+router.get('/', userController.root);
 
 // CRUD Operations
 router.post('/create', userController.userCreate);
