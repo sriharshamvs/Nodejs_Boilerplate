@@ -60,5 +60,9 @@ Open browser
 ```
 
 ### Performing CRUD operations using POSTMAN
-CRUD stands for (*Create, Read, Update, Delete*)
+We are perfoming CRUD operations using Postman applications. 
+##### Create 
+* We use POST method to create a entry in DB
+![Create](blob/images/Create.png)
+
 
