@@ -12,6 +12,7 @@ You need to install the following before starting the project
 * [npm](https://www.npmjs.com/) - Node package manager
 * [node](https://nodejs.org/en/) - If you don't have node installed, you can donwload from [here](https://nodejs.org/en/)
 * [mongodb](https://www.mongodb.com/) - MongoDB ( you can install mongod [here](https://docs.mongodb.com/manual/installation/) )
+* [Postman](https://www.getpostman.com/downloads/) Postman is a complete API development environment
 
 ### Installation
 * Clone the directory withe the command
@@ -57,6 +58,7 @@ Open browser
 ```
 "You are in User's Testing Route"
 ```
-### Performing CRUD operations
+
+### Performing CRUD operations using POSTMAN
 CRUD stands for (*Create, Read, Update, Delete*)
 
