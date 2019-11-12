@@ -60,9 +60,23 @@ Open browser
 ```
 
 ### Performing CRUD operations using POSTMAN
-We are perfoming CRUD operations using Postman applications. 
+We are perfoming CRUD operations using Postman applications. Follow as shown in Images
 ##### Create 
-* We use POST method to create a entry in DB
+* Use POST method to create a entry in DB. 
+* Enter *username, age, mobileNumber*
 ![Create](blob/images/Create.png)
 
+##### Read 
+* Use GET method to create a entry in DB. 
+* Enter *id* to be read
+![Read](blob/images/Read.png)
 
+##### Update 
+* Use PUT method to create a entry in DB. 
+* Enter *username, age, mobileNumber*
+![Update](blob/images/Update.png)
+
+##### Delete 
+* Use DELETE method to create a entry in DB. 
+* Enter *id* to be deleted
+![Delete](blob/images/Delete.png)
