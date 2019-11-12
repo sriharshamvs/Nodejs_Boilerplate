@@ -42,7 +42,7 @@ Connected to database successfully mongodb://localhost:27017/userData
 ```
 ### Test the App
 Open browser 
-* Enter URL : *http://localhost:3000/* then you should see :
+* Enter URL : *http://localhost:3000/*  then you should see :
 ```
 {
     "messsage": "Server running at http://localhost:3000",
@@ -50,11 +50,11 @@ Open browser
     "success": true
 }
 ```
-* Enter URL : *http://localhost:3000/users* then you should see :
+* Enter URL : *http://localhost:3000/users*  then you should see :
 ```
 "You are in User's Root directory"
 ```
-* Enter URL : *http://localhost:3000/users/test* then you should see :
+* Enter URL : *http://localhost:3000/users/test*  then you should see :
 ```
 "You are in User's Testing Route"
 ```
