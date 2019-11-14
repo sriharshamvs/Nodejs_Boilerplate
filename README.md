@@ -78,5 +78,5 @@ We are perfoming CRUD operations using Postman applications. Follow as shown in 
 
 ##### Delete 
 * Use DELETE method to create a entry in DB 
-* Enter *id* to be deleted
+* Enter *id* to be deleted.
 ![Delete](blob/images/Delete.png)
