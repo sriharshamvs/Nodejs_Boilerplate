@@ -17,7 +17,7 @@ You need to install the following before starting the project
 ### Installation
 * Clone the directory withe the command
 ```
-git clone git@code.swecha.org:sriharshamvs/nodejs-boilerplate.git
+git clone git@github.com:sriharshamvs/Nodejs_Boilerplate.git
 ```
 * Change Directory to node boilerplate
 ```
